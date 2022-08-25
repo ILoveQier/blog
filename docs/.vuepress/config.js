@@ -1,12 +1,17 @@
+/*
+ * @Description: 
+ * @Author: wangchao
+ * @Date: 2022-08-25 21:51:28
+ */
 const head = require('./config/head.js');
 const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
   theme: 'vdoing', // 使用npm包主题
-  title: "vdoing-template",
+  title: "blog",
   description: 'vdoing博客主题模板',
-  base: '/vdoing-template/', // 格式：'/<仓库名>/'， 默认'/'
+  base: '/blog/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
   },
@@ -25,10 +30,10 @@ module.exports = {
         needComments: true,
         // 其他的 Vssue 配置
         autoCreateIssue: true,
-        clientId: "adb9fb0ac1159e00ce7f",
-        clientSecret: "27da8dc85f808c2bd1b6e44da5ae69c4ddf17d8d",
-        owner: "eryajf",
-        repo: "vdoing-template",
+        clientId: "3e47ef7ccb8f839280ea",
+        clientSecret: "1d75445015ca080baec44e4b99cdad26c7a75d6f",
+        owner: "chao",
+        repo: "blog",
       },
     ],
     // 增强 markdown
