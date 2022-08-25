@@ -1,8 +1,3 @@
-/*
- * @Description: 
- * @Author: wangchao
- * @Date: 2022-08-25 21:51:28
- */
 const nav = require('./themeConfig/nav.js');
 // const sidebar = require('./themeConfig/sidebar.js');
 
